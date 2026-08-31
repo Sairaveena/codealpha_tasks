@@ -36,8 +36,7 @@ Task4_Basic_Chatbot/
 
 ## How to Run
 
-Open the project folder in VS Code or Command Prompt.
-          python main.py
+python main.py
 
 ## Output
 
