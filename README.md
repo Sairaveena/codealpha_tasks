@@ -1,54 +1,48 @@
-# Task 4 - Basic Chatbot
+# CodeAlpha Internship Tasks
 
-## Project Overview
+## Overview
+
+This repository contains the projects completed as part of the CodeAlpha Internship.
+
+## Tasks Completed
+
+### Task 1 - Hangman Game
+
+A word-guessing game developed using Python and Tkinter. The player guesses letters to find the hidden word before running out of lives.
+
+### Task 2 - Stock Portfolio Tracker
+
+A simple stock portfolio tracker developed using Python. The application allows users to manage stocks, track quantities and prices, and calculate the total portfolio value.
+
+### Task 4 - Basic Chatbot
 
 A basic rule-based chatbot developed using Python and Tkinter. The chatbot responds to greetings, basic questions, jokes, help requests, and time/date queries.
-
-## Objective
-
-To develop a simple interactive chatbot with a graphical user interface.
 
 ## Technologies Used
 
 - Python
 - Tkinter
+- SQLite
 - Regular Expressions
-- Random
+- Random Module
 - Date and Time
 
-## Features
-
-- Basic conversation
-- Greeting responses
-- Time and date
-- Random jokes
-- Help responses
-- Graphical user interface
-- User input and chatbot responses
-
-## Project Structure
+## Repository Structure
 
 ```text
-Task4_Basic_Chatbot/
-├── main.py
-└── README.md
-```
-
-## How to Run
-
-python main.py
-
-## Output
-
-The program opens a graphical chatbot window named AlphaBot. Users can enter messages and receive predefined responses for greetings, basic questions, jokes, help requests, and time/date queries.
-
-Example:
-
-You: Hello
-AlphaBot: Hello there! How can I assist you today?
-
-You: What is your name?
-AlphaBot: I am AlphaBot, your intelligent virtual assistant!
-
-You: Tell me a joke
-AlphaBot: Why do programmers prefer dark mode? Because light attracts bugs!
+codealpha_tasks/
+│
+├── README.md
+│
+├── Task1_Hangman_Game/
+│   ├── main.py
+│   ├── words.txt
+│   └── README.md
+│
+├── Task2_Stock_Portfolio/
+│   ├── main.py
+│   └── README.md
+│
+└── Task4_Basic_Chatbot/
+    ├── main.py
+    └── README.md
